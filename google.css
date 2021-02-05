@@ -143,9 +143,11 @@ footer>div{
     text-decoration: underline;
 }
 
+
 #bottom {
     text-align: justify;
     border-collapse: collapse;
+    border-top : 0px;
 }
 
 #bottom_left{

@@ -4,8 +4,6 @@
 ![Website Screenshot](/Google_images.png "Google")  
   
 # Demo  
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="/video.mp4">
-    <source src="/video.mp4" type="video/mp4">
-  </video>
-</figure>
+
+https://user-images.githubusercontent.com/61156183/107064831-0222f200-6802-11eb-8ac9-68acc03ab24b.mp4
+

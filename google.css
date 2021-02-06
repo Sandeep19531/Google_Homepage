@@ -198,3 +198,16 @@ footer>div{
 #dropdown-wrapper:hover #app-dropdown {
     display: block;
 }
+
+#image-wrapper:hover > span{
+    display: none;
+}
+
+#image-wrapper:focus-within > span{
+    display: none;
+}
+
+
+#image-wrapper:focus-within > img{
+    display: none;
+}

@@ -25,6 +25,7 @@ nav {
     margin-right: 16px;
 }
 
+
 #profile_pic {
     width: 32px;
     height: 32px;
@@ -57,6 +58,7 @@ main {
     font-size: 13px;
     padding: 14px;
     border-radius: 24px;
+    outline: none;
 }
 
 #image-wrapper > img {
@@ -143,14 +145,56 @@ footer>div{
     text-decoration: underline;
 }
 
-
 #bottom {
     text-align: justify;
     border-collapse: collapse;
-    border-top : 0px;
+    border-top: 0px;
 }
 
 #bottom_left{
     position: absolute;
     right: 0;
+}
+
+#app-dropdown {
+    width: 285px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    right: 80px;
+    text-align: center;
+    display: none;
+}
+
+.apps{
+    display: inline-block;
+    width: 84px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.apps > img{
+    margin-top: 8px;
+    width: 30px;
+    height: 30px;
+}
+
+.apps > p{
+    margin: 8px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+.apps:hover{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: rgba(19, 201, 247, 0.1);
+    border-radius: 8px;
+}
+
+#dropdown-wrapper {
+    display: inline-block;
+}
+
+#dropdown-wrapper:hover #app-dropdown {
+    display: block;
 }
